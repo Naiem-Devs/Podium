@@ -1,0 +1,251 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .home h1 {
+        font-size: 80px;
+    }
+    .color-snap{
+    display: none !important;
+}
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .home h1 {
+        font-size: 80px;
+    }
+    .game_item i {
+        max-width: 600px;
+    }
+    
+    .gagner h3 {
+        font-size: 40px;
+    }
+    .cl-span {
+        margin-left: 72px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .home h1 {
+        font-size: 70px;
+    }
+    
+    .logo-area img {
+        max-width: 250px;
+    }
+    
+    .logo-area a span {
+        font-size: 30px;
+    }
+    
+    .popup i {
+        max-width: 700px;
+    }
+    .game_item i {
+        max-width: 443px;
+    }
+    
+    .game_item_cont a {
+        font-size: 50px;
+        padding: 15px 50px;
+        margin-top: 10px;
+    }
+    
+    .cl-span span {
+        width: 50px;
+        height: 18px;
+        margin: 0 2px;
+    }
+    
+    .cl-span {
+        margin-top: 92px;
+        margin-left: 71px;
+    }
+    
+    .game_slider.owl-carousel.owl-loaded.owl-drag {
+        margin: 50px 0;
+    }
+    
+    .game_item {
+        height: 340px;
+    }
+    
+    .gagner h3 {
+        font-size: 30px;
+    }
+    
+    .email h2 {
+        font-size: 35px;
+    }
+    
+    .input-box {
+        margin-bottom: 20px;
+        height: 90px;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .home h1 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+    
+    .logo-area img {
+        max-width: 138px;
+    }
+    .home-cont{
+    max-width: 100%;
+}
+
+footer ul {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .logo-area a span {
+        font-size: 18px;
+    }
+
+.logo-area {
+    margin: 20px auto 10px;
+}
+    
+    .popup i {
+        max-width: 100%;
+    }
+
+.popup {
+    width: 100%;
+}
+a.play-btn {
+    max-width: 60px;
+}
+
+.email h2 {
+    font-size: 20px;
+}
+
+.input-box {
+    height: 64px;
+    margin: 10px 0;
+}
+
+.input-box input::placeholder {
+    font-size: 16px;
+}
+
+.input-box input {padding: 0px 60px 0;padding-right: 50px;}
+
+.emleft {
+    left: 30px;
+}
+
+.input-box .emleft img {
+    width: 16px;
+}
+
+a.emright img {
+    width: 10px;
+}
+
+a.emright {
+    right: 30px;
+}
+
+.program h2 {
+    font-size: 28px;
+}
+
+.program_blk h4 {
+    font-size: 22px;
+}
+
+.program_blk.gm-blk h3 {
+    font-size: 18px;
+}
+
+.program_blk p {
+    font-size: 20px;
+}
+
+.program_blk {
+    margin-bottom: 30px;
+}
+
+.email {
+    margin: 40px 0;
+}
+
+footer ul li a img {
+    width: 100px;
+}
+
+footer ul li:nth-child(2) {
+    margin: 10px 0 5px;
+}
+
+footer ul li a {
+    font-size: 18px;
+}
+
+footer ul li span {
+    font-size: 16px;
+}
+
+footer {
+    padding: 30px 0 15px;
+} 
+.game_item i {
+    max-width: 450px;
+    position: unset;
+}
+
+.game_item_cont a {
+    font-size: 27px;
+    padding: 10px 30px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cl-span span {
+    width: 50px;
+    height: 18px;
+    margin: 0 2px;
+}
+
+.cl-span {display: none;}
+
+.game_slider.owl-carousel.owl-loaded.owl-drag {
+    margin: 50px 0;
+}
+
+.game_item {
+    height: max-content;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.gagner h3 {
+    font-size: 24px;
+}
+
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
